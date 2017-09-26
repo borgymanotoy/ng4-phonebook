@@ -1,0 +1,24 @@
+li.list-item > a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.section-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  width: 200px;
+  background-color: lightgray;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+}

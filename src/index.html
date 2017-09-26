@@ -1,14 +1,43 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Compponents101</title>
-  <base href="/">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular 4 + REST API - CRUD</title>
+        <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+        <!--<link rel="stylesheet" href="assets/css/bootstrap.css">-->
+        <link rel="stylesheet" href="assets/css/phonebook.css">
+        <link rel="stylesheet" href="assets/css/google-fonts.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <style media="screen">
+          tr>td:nth-of-type(5), tr>td:nth-of-type(6){
+            width: 30px;
+          }
+
+          #imaginary_container{}
+
+          .stylish-input-group .input-group-addon{
+            background: white !important;
+          }
+          .stylish-input-group .form-control{
+            border-right:0;
+            box-shadow:0 0 0;
+            border-color:#ccc;
+          }
+          .stylish-input-group button{
+            border:0;
+            background:transparent;
+          }
+
+          .btn { background-color: #16a085; }
+        </style>
+    </head>
+    <body>
+        <app-root></app-root>
+    </body>
 </html>
